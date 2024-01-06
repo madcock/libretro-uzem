@@ -237,7 +237,7 @@ bool retro_load_game(const struct retro_game_info *info)
 	};
 
 	// TODO: make this configurable
-#if defined (_PSP) || defined (_3DS)
+#if defined (_PSP) || defined (_3DS) || defined(SF2000)
 	half_width = true;
 #else
 	half_width = false;
